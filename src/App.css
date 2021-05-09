@@ -1,30 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+
+
 body{
   font-family: 'Roboto Mono', monospace;
 }
 
 /* NavBar */
 .logo {
-  width: 5rem;
-  
+  width: 8rem;
+}
+
+nav.navbar.navbar-expand-lg {
+  background-color: #041b2d;
 }
 
 /* NavLinks */
 nav a.nav-link {
-  font-weight: 400;
   letter-spacing: 0.0375rem;
   cursor: pointer;
 }
 
 nav ul li {
   text-transform: uppercase;
+  font-size: 1.0rem;
 }
 
 .navbar-nav > li > a {
   margin-left: 0.75rem;
   margin-right: 0.75rem;
   color: #428cd4 !important;
+  font-family: 'Roboto Mono', monospace;
 }
 
 .navbar-brand {
@@ -43,3 +49,42 @@ nav ul li {
 .navbar-nav > li > a:hover {
   color: #ea4492 !important;
 }
+
+/* Home Page */
+.home-page {
+  position: relative;
+  background: url(background.png) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  width: 27rem;
+  margin: auto;
+  padding-top: 10rem;
+}
+
+div {
+  color: #ff9cda;
+  /* text-transform: uppercase; */
+}
+
+.pic {
+  width: 15rem;
+  padding-bottom: 0.8rem;
+}
+
+/* 
+Dark Blue #041B2D
+Medium Blue #004E9A
+Light Blue #428CD4
+Light Pink #FF9CDA
+Dark Pink #EA4492
+*/
