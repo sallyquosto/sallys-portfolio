@@ -1,38 +1,43 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import logo from "../logo.png";
+// import { NavLink } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-export default function NavBar() {
-    // return <h1>NavBar Works!</h1>
+
+const NavBar = () => {
     return (
-        <header>
-            <div className="container mx-auto fles justify-between">
-                <nav className="flex">
-                    <NavLink 
-                    to="/"
-                    exact className="inline-flex items-center py-6 px-3 mr-4"
-                    >
-                        Sally.
-                    </NavLink>
-                    <NavLink
-                    to="/skills"
-                    exact className="inline-flex items-center py-3 px-3 mr-6"
-                    >
-                        Skills.
-                    </NavLink>
-                    <NavLink 
-                    to="/project"
-                    exact className="inline-flex items-center py-3 px-3 mr-6"
-                    >
-                        Projects.
-                    </NavLink>
-                    <NavLink 
-                    to="/about"
-                    exact className="inline-flex items-center py-3 px-3 mr-6"
-                    >
-                        About Me.
-                    </NavLink>
-                </nav>
+        <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+            {/* <div className=".container"> */}
+            <a class="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..."/></a>
+            
+            <button className="navbar-toggler" type="button" data-toggle="collapse"   
+                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                <FontAwesomeIcon icon={faBars} style={{color: "#428cd4"}}/>
+            </button>
+
+            <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul className="navbar-nav ml-auto">
+                    <li className="nav-item active">
+                        <a className="nav-link" href="#">Home.<span className="sr-only">(current)</span></a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">Skills.</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">Projects.</a>
+                    </li><li className="nav-item">
+                        <a className="nav-link" href="#">About Me.</a>
+                    </li>
+                    <li className="nav-item">
+                        <a className="nav-link" href="#">Contact Me.</a>
+                    </li>
+                </ul>
             </div>
-        </header>
+            {/* </div> */}
+        </nav>
     )
 }
+
+export default NavBar
