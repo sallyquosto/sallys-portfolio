@@ -1,7 +1,5 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-// import { SketchPicker } from 'react-color';
-
 
 export default function NavBar() {
     // return <h1>NavBar Works!</h1>
@@ -38,9 +36,6 @@ export default function NavBar() {
                         About Me.
                     </NavLink>
                 </nav>
-                <div>
-
-                </div>
             </div>
         </header>
     )

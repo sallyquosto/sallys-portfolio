@@ -5,6 +5,7 @@ import SinglePost from "./components/SinglePost";
 import Skills from "./components/Skills";
 import Project from "./components/Project";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 import "./App.css"
 // import { ChromePicker } from 'react-color';
 // import Button from '@material-ui/core/Button';
@@ -22,7 +23,7 @@ function App() {
         <Route component={Skills} path='/skills' />
         <Route component={Project} path='/project' />
       </Switch>
-      
+    <Footer />
     </BrowserRouter>
   )
 }
