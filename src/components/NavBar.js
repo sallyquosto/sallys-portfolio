@@ -4,34 +4,30 @@ import { NavLink } from "react-router-dom";
 export default function NavBar() {
     // return <h1>NavBar Works!</h1>
     return (
-        <header position="static" style={{background: "#041d2b"}}>
+        <header>
             <div className="container mx-auto fles justify-between">
                 <nav className="flex">
                     <NavLink 
-                    to="/" 
-                    activeClassName="text-white"
-                    exact className="inline-flex items-center py-6 px-3 mr-4 text-blue-900 hover:text-blue-400 text-4xl font-bold font tracking-widest"
+                    to="/"
+                    exact className="inline-flex items-center py-6 px-3 mr-4"
                     >
                         Sally.
                     </NavLink>
                     <NavLink
                     to="/skills"
-                    activeClassName="bg-yellow-700" 
-                    exact className="inline-flex items-center py-3 px-3 mr-6 rounded text-blue-800 hover:text-blue-400"
+                    exact className="inline-flex items-center py-3 px-3 mr-6"
                     >
                         Skills.
                     </NavLink>
                     <NavLink 
                     to="/project"
-                    activeClassName="bg-yellow-700"
-                    exact className="inline-flex items-center py-3 px-3 mr-6 rounded text-blue-800 hover:text-blue-400"
+                    exact className="inline-flex items-center py-3 px-3 mr-6"
                     >
                         Projects.
                     </NavLink>
                     <NavLink 
                     to="/about"
-                    activeClassName="bg-yellow-700"
-                    exact className="inline-flex items-center py-3 px-3 mr-6 rounded text-blue-800 hover:text-blue-400"
+                    exact className="inline-flex items-center py-3 px-3 mr-6"
                     >
                         About Me.
                     </NavLink>
