@@ -7,10 +7,6 @@ import Project from "./components/Project";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import "./App.css"
-// import { ChromePicker } from 'react-color';
-// import Button from '@material-ui/core/Button';
-
-
 
 function App() {
   return (
