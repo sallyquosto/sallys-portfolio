@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
 
 body{
   font-family: 'Roboto Mono', monospace !important;
@@ -83,6 +87,39 @@ div {
   display: flex;
   border: 0.1rem solid #041b2d;
 
+}
+
+/* Skills Page */
+
+.skills {
+  background-color: #041b2d;
+}
+
+.box {
+  color: white;
+  padding: 1rem;
+}
+
+h1 {
+  font-weight: bold;
+  padding: 2rem;
+}
+
+svg {
+  margin-bottom: 1rem;
+}
+
+.container {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+  color: white;
+  font-weight: 800;
+}
+
+h6 {
+  color: white;
 }
 
 /* 
