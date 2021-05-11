@@ -81,12 +81,11 @@ div {
 }
 
 .my-img {
-  width: 8rem;
-  border-radius: 50%;
+  width: 9rem;
+  border-radius: 10%;
   margin: auto;
+  margin-bottom: 1.5rem;
   display: flex;
-  border: 0.1rem solid #041b2d;
-
 }
 
 /* Skills Page */
@@ -120,6 +119,31 @@ svg {
 
 h6 {
   color: white;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.animation {
+	transform: translateZ(0);
+	transition-duration: 0.3s;
+	transition-property: transform;
+	transition-timing-function: ease-out;
+}
+
+.animation:hover,
+.animation:focus,
+.animation:active {
+	transform: translateY(-8px);
+}
+
+@media only screen and (min-width: 768px) {
+  h6 {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+  }
 }
 
 /* 

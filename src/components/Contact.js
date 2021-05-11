@@ -1,5 +1,9 @@
 import React from "react";
 
-export default function Contact() {
-    return <h1>Contact Me Page Works!</h1>
+const Contact = () => {
+    return (
+    <h1>Project Page Works!</h1>
+    )
 }
+
+export default Contact;
