@@ -263,6 +263,10 @@ a.social-icon {
 }
 
 @media only screen and (min-width: 768px) {
+  .info {
+    padding-top: 13rem;
+  }
+  
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
