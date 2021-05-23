@@ -17,7 +17,7 @@ import { AiOutlineApi } from 'react-icons/ai';
 
 const Skills = () => {
     return (
-        <div className="skills">
+        <div id="skills" className="skills">
             <h1 className="py-5">
                 <div className="container">
                     <h1>My Skills</h1>
@@ -112,7 +112,6 @@ const Skills = () => {
                                 <h3></h3>
                             </div>
                         </div> */}
-                        
                     </div>
                 </div>
                 <h6>To Be Continued...</h6>

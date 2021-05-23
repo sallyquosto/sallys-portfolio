@@ -1,9 +1,11 @@
 import React from "react";
 import { SocialIcon } from "react-social-icons";
+import { HiArrowUp } from 'react-icons/hi';
 
 export default function Footer() {
     return (
-        <div className="py-3 px-3 my-3">
+        <div className="footer">
+                <div className="my-icons">
                     <SocialIcon 
                     url="https://github.com/sallyquosto" 
                     className="mr-4" 
@@ -25,7 +27,22 @@ export default function Footer() {
                     fgColor="#fff" 
                     style={{height: 35, width: 35}} 
                     />
-
+                    <SocialIcon 
+                    url="https://www.snapchat.com/add/sallyquosto" 
+                    className="mr-4" 
+                    target="_blank" 
+                    fgColor="#fff" 
+                    style={{height: 35, width: 35}} 
+                    />
                 </div>
+                <p className="pt-3 text-center">Copyright&copy; {new Date().getFullYear()}&nbsp; <br />
+                Created by Sally Quosto | All Rights Reserved </p>
+            
+            <div className="pageup-arrow animation">
+				<a href="#">
+				    <HiArrowUp size="3em" color="black" />
+				</a>
+            </div>
+        </div>
     )
 }

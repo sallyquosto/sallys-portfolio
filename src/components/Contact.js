@@ -17,7 +17,6 @@ const Contact = () => {
             templateID,
             {
                 name: data.Name,
-                // phone: data.phone,
                 email: data.Email,
                 subject: data.Subject,
                 message: data.Message
@@ -35,7 +34,7 @@ const Contact = () => {
     }
 
     return (
-        <div className="contact">
+        <div id="contact" className="contact">
             <div className="text-container">
                 <h1>Contact Me</h1>
                 <p>Please fill out this form and I will reach out ASAP!</p>
@@ -52,19 +51,9 @@ const Contact = () => {
                             placeholder="Name"
                             name="name" 
                             {...register("Name", { required: true })} />
-                            <span className="error-msg">{errors.Name?.type === 'required' && "Full name is required"}</span>
                             <div className="underline"></div>
                         </div>
-                        {/* <div className="text-center">
-                            <input 
-                            type="text"
-                            className="form-control"
-                            placeholder="Phone Number"
-                            name="phone" 
-                            {...register("Phone", { required: true })} />
-                            {errors.Phone?.type === 'required' && "Phone number is required"}
-                            <div className="underline"></div>
-                        </div> */}
+                        <span className="error-msg">{errors.Name?.type === 'required' && "Full name is required"}</span>
                         <div className="text-center">
                             <input 
                             type="email"
@@ -72,9 +61,9 @@ const Contact = () => {
                             placeholder="Email"
                             name="email" 
                             {...register("Email", { required: true })} />
-                            <span className="error-msg">{errors.Email?.type === 'required' && "Email address is required"}</span>
                             <div className="underline"></div>
                         </div>
+                        <span className="error-msg">{errors.Email?.type === 'required' && "Email address is required"}</span>
                         <div className="text-center">
                             <input 
                             type="text"
@@ -82,9 +71,9 @@ const Contact = () => {
                             placeholder="Subject"
                             name="subject" 
                             {...register("Subject", { required: true })} />
-                            <span className="error-msg">{errors.Subject?.type === 'required' && "Subject is required"}</span>
                             <div className="underline"></div>
                         </div>
+                        <span className="error-msg">{errors.Subject?.type === 'required' && "Subject is required"}</span>
                     </div>
                     <div className="col-md-6 col-xs-12">
                         <div className="text-center">
@@ -95,9 +84,9 @@ const Contact = () => {
                             name="message" 
                             {...register("Message", { required: true })}
                             ></textarea>
-                            <span className="error-msg">{errors.Message?.type === 'required' && "Message is required"}</span>
                             <div className="underline"></div>
                         </div>
+                        <span className="error-msg">{errors.Message?.type === 'required' && "Message is required"}</span>
                         <button className="contact-btn" type="submit">Contact Me</button>
                     </div>
                 </div>

@@ -5,7 +5,7 @@ import MyIMG from "../IMG/IMG_1158.jpg";
 
 const Home = () => {
     return (
-        <div className="home-page">
+        <div id="home" className="home-page">
             <div className="info">
                 {/* <div className="na"> */}
                     <div className="photo-wrap">

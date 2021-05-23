@@ -3,7 +3,7 @@ import { BiError } from 'react-icons/bi';
 
 const Project = () => {
     return (
-        <div className="projects">
+        <div id="project" className="projects">
             <div className="py-5">
                 <div className="column">
                     <div className="my-projects">

@@ -59,7 +59,7 @@ nav ul li {
   background: url(background.png) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main {
@@ -166,13 +166,14 @@ h6 {
 
 /* Contact Page  */
 .contact {
-  background-color: #041b2d;
+  background: linear-gradient(to bottom, #041B2D 0%, #020e18 100%);
   position: relative;
   align-items: center;
   text-align: center;
   margin: auto;
   color: white;
   padding: 2rem 0;
+  
 }
 
 .contact h1 {
@@ -227,6 +228,38 @@ p {
 
 .error-msg {
   color: red;
+  margin-bottom: 1rem;
+}
+
+/* Footer Page */
+.footer {
+  background-color: #041B2D;
+}
+
+.container {
+  padding-top: 3rem;
+}
+
+.my-icons {
+  padding-top: 3rem;
+  justify-content: center;
+  display: flex;
+}
+
+a.social-icon {
+  margin: .5rem;
+}
+
+.text-center {
+  color: black !important;
+}
+
+.pageup-arrow {
+	margin: 2em auto 0.5em;
+	cursor: pointer;
+	text-align: center;
+	animation: backDown 0.6s forwards;
+	width: 70px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -253,10 +286,24 @@ p {
   .underline {
     position: relative;
     width: 0;
-    height: 0.13rem;
-    background: #ea4492;
+    height: 0.19rem;
+    background: #ea4492 !important;
     display: inline-block;
     top: -2.10rem;
+  }
+
+  input:focus+.underline, textarea:focus+.underline {
+    width: 100%;
+    transition: width 0.5s ease-in-out;
+  }
+
+  .form-control .underline {
+    margin: -0.3rem 0;
+  }
+
+  .contact-btn:hover {
+    color: #ea4492;
+    border: .125rem solid #ea4492;
   }
 }
 
@@ -300,7 +347,7 @@ p {
     position: relative;
     width: 0;
     height: 0.13rem;
-    background: #ea4492;
+    background: #ea4492 !important;
     display: inline-block;
     top: -2.10rem;
   }

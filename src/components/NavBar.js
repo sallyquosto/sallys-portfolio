@@ -1,14 +1,13 @@
 import React from "react";
 import logo from "../IMG/logo.png";
-// import { NavLink } from "react-router-dom";
+import {Link} from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 
 const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg">
-            {/* <div className=".container"> */}
+        <nav className="navbar navbar-expand-lg fixed-top">
             <a class="navbar-brand" href="#"><img className="logo" src={logo} alt="logo..."/></a>
             
             <button className="navbar-toggler" type="button" data-toggle="collapse"   
@@ -20,20 +19,19 @@ const NavBar = () => {
             <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                 <ul className="navbar-nav ml-auto">
                     <li className="nav-item active">
-                        <a className="nav-link" href="#">Home.<span className="sr-only">(current)</span></a>
+                        <Link smooth={true} to="home" offset={-100} className="nav-link" href="#">Home.<span className="sr-only">(current)</span></Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Skills.</a>
+                        <Link smooth={true} to="skills" offset={-100} className="nav-link" href="#">Skills.</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Projects.</a>
+                        <Link smooth={true} to="project" offset={-100} className="nav-link" href="#">Projects.</Link>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Contact Me.</a>
+                        <Link smooth={true} to="contact" offset={-100} className="nav-link" href="#">Contact Me.</Link>
                     </li>
                 </ul>
             </div>
-            {/* </div> */}
         </nav>
     )
 }
