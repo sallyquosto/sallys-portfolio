@@ -1,6 +1,6 @@
 import React from "react";
 import ReactTypingEffect from 'react-typing-effect';
-import MyIMG from "../IMG/IMG_1158.PNG";
+import MyIMG from "../IMG/IMG_1158.jpg";
 
 
 const Home = () => {
