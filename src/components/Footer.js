@@ -42,7 +42,7 @@ export default function Footer() {
 				<a href="#">
 				    <HiArrowUp size="3em" color="black" />
 				</a>
-            </div>
+        </div>
         </div>
     )
 }
