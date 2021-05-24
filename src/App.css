@@ -10,6 +10,15 @@ body{
   font-family: 'Roboto Mono', monospace !important;
 }
 
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
 /* NavBar */
 .logo {
   width: 8rem;
@@ -317,6 +326,10 @@ a.social-icon {
     display: flex;
     justify-content: flex-end;
     position: relative;
+  }
+  
+  .info {
+    padding-top: 10rem;
   }
 
   .navbar {
