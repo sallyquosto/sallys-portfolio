@@ -85,8 +85,14 @@ nav ul li {
   padding-top: 10rem;
 }
 
+.typing {
+  text-align: center;
+  padding: 0 2rem 0 2rem;
+}
+
 div {
   color: #ff9cda;
+
 }
 
 .my-img {
@@ -275,6 +281,11 @@ a.social-icon {
   .info {
     padding-top: 13rem;
   }
+
+  .typing {
+    text-align: center;
+    margin: 0 5rem 0 5rem;
+  }
   
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
@@ -330,6 +341,11 @@ a.social-icon {
   
   .info {
     padding-top: 10rem;
+  }
+
+  .typing {
+    text-align: center;
+    margin: 0 10rem 0 10rem;
   }
 
   .navbar {
