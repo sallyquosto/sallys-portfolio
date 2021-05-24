@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sallys-portfolio/static/css/main.795cdcb0.chunk.css",
+    "main.css": "/sallys-portfolio/static/css/main.6578a5cf.chunk.css",
     "main.js": "/sallys-portfolio/static/js/main.d9973280.chunk.js",
     "main.js.map": "/sallys-portfolio/static/js/main.d9973280.chunk.js.map",
     "runtime-main.js": "/sallys-portfolio/static/js/runtime-main.0e9dd95e.js",
@@ -12,7 +12,7 @@
     "static/js/3.20847370.chunk.js.map": "/sallys-portfolio/static/js/3.20847370.chunk.js.map",
     "index.html": "/sallys-portfolio/index.html",
     "static/css/2.acd75131.chunk.css.map": "/sallys-portfolio/static/css/2.acd75131.chunk.css.map",
-    "static/css/main.795cdcb0.chunk.css.map": "/sallys-portfolio/static/css/main.795cdcb0.chunk.css.map",
+    "static/css/main.6578a5cf.chunk.css.map": "/sallys-portfolio/static/css/main.6578a5cf.chunk.css.map",
     "static/js/2.5a2c1cf5.chunk.js.LICENSE.txt": "/sallys-portfolio/static/js/2.5a2c1cf5.chunk.js.LICENSE.txt",
     "static/media/IMG_1158.e656af2a.jpg": "/sallys-portfolio/static/media/IMG_1158.e656af2a.jpg",
     "static/media/App.css": "/sallys-portfolio/static/media/background.c3f32310.png",
@@ -22,7 +22,7 @@
     "static/js/runtime-main.0e9dd95e.js",
     "static/css/2.acd75131.chunk.css",
     "static/js/2.5a2c1cf5.chunk.js",
-    "static/css/main.795cdcb0.chunk.css",
+    "static/css/main.6578a5cf.chunk.css",
     "static/js/main.d9973280.chunk.js"
   ]
 }
