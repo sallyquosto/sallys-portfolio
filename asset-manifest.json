@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/sallys-portfolio/static/css/main.a5b9af31.chunk.css",
-    "main.js": "/sallys-portfolio/static/js/main.f7a4f1c3.chunk.js",
-    "main.js.map": "/sallys-portfolio/static/js/main.f7a4f1c3.chunk.js.map",
+    "main.js": "/sallys-portfolio/static/js/main.f41f84bf.chunk.js",
+    "main.js.map": "/sallys-portfolio/static/js/main.f41f84bf.chunk.js.map",
     "runtime-main.js": "/sallys-portfolio/static/js/runtime-main.0e9dd95e.js",
     "runtime-main.js.map": "/sallys-portfolio/static/js/runtime-main.0e9dd95e.js.map",
     "static/css/2.acd75131.chunk.css": "/sallys-portfolio/static/css/2.acd75131.chunk.css",
@@ -23,6 +23,6 @@
     "static/css/2.acd75131.chunk.css",
     "static/js/2.5a2c1cf5.chunk.js",
     "static/css/main.a5b9af31.chunk.css",
-    "static/js/main.f7a4f1c3.chunk.js"
+    "static/js/main.f41f84bf.chunk.js"
   ]
 }
